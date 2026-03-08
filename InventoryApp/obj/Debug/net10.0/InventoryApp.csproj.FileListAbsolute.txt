@@ -1,0 +1,15 @@
+C:\Users\Yassir\Documents\C#_Dev\InventoryApp\bin\Debug\net10.0\InventoryApp.exe
+C:\Users\Yassir\Documents\C#_Dev\InventoryApp\bin\Debug\net10.0\InventoryApp.deps.json
+C:\Users\Yassir\Documents\C#_Dev\InventoryApp\bin\Debug\net10.0\InventoryApp.runtimeconfig.json
+C:\Users\Yassir\Documents\C#_Dev\InventoryApp\bin\Debug\net10.0\InventoryApp.dll
+C:\Users\Yassir\Documents\C#_Dev\InventoryApp\bin\Debug\net10.0\InventoryApp.pdb
+C:\Users\Yassir\Documents\C#_Dev\InventoryApp\obj\Debug\net10.0\InventoryApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yassir\Documents\C#_Dev\InventoryApp\obj\Debug\net10.0\InventoryApp.AssemblyInfoInputs.cache
+C:\Users\Yassir\Documents\C#_Dev\InventoryApp\obj\Debug\net10.0\InventoryApp.AssemblyInfo.cs
+C:\Users\Yassir\Documents\C#_Dev\InventoryApp\obj\Debug\net10.0\InventoryApp.csproj.CoreCompileInputs.cache
+C:\Users\Yassir\Documents\C#_Dev\InventoryApp\obj\Debug\net10.0\InventoryApp.sourcelink.json
+C:\Users\Yassir\Documents\C#_Dev\InventoryApp\obj\Debug\net10.0\InventoryApp.dll
+C:\Users\Yassir\Documents\C#_Dev\InventoryApp\obj\Debug\net10.0\refint\InventoryApp.dll
+C:\Users\Yassir\Documents\C#_Dev\InventoryApp\obj\Debug\net10.0\InventoryApp.pdb
+C:\Users\Yassir\Documents\C#_Dev\InventoryApp\obj\Debug\net10.0\InventoryApp.genruntimeconfig.cache
+C:\Users\Yassir\Documents\C#_Dev\InventoryApp\obj\Debug\net10.0\ref\InventoryApp.dll
