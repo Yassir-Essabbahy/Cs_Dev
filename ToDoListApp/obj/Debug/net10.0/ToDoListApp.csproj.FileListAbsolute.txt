@@ -1,0 +1,15 @@
+C:\Users\Yassir\Documents\C#_Dev\ToDoListApp\bin\Debug\net10.0\ToDoListApp.exe
+C:\Users\Yassir\Documents\C#_Dev\ToDoListApp\bin\Debug\net10.0\ToDoListApp.deps.json
+C:\Users\Yassir\Documents\C#_Dev\ToDoListApp\bin\Debug\net10.0\ToDoListApp.runtimeconfig.json
+C:\Users\Yassir\Documents\C#_Dev\ToDoListApp\bin\Debug\net10.0\ToDoListApp.dll
+C:\Users\Yassir\Documents\C#_Dev\ToDoListApp\bin\Debug\net10.0\ToDoListApp.pdb
+C:\Users\Yassir\Documents\C#_Dev\ToDoListApp\obj\Debug\net10.0\ToDoListApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yassir\Documents\C#_Dev\ToDoListApp\obj\Debug\net10.0\ToDoListApp.AssemblyInfoInputs.cache
+C:\Users\Yassir\Documents\C#_Dev\ToDoListApp\obj\Debug\net10.0\ToDoListApp.AssemblyInfo.cs
+C:\Users\Yassir\Documents\C#_Dev\ToDoListApp\obj\Debug\net10.0\ToDoListApp.csproj.CoreCompileInputs.cache
+C:\Users\Yassir\Documents\C#_Dev\ToDoListApp\obj\Debug\net10.0\ToDoListApp.sourcelink.json
+C:\Users\Yassir\Documents\C#_Dev\ToDoListApp\obj\Debug\net10.0\ToDoListApp.dll
+C:\Users\Yassir\Documents\C#_Dev\ToDoListApp\obj\Debug\net10.0\refint\ToDoListApp.dll
+C:\Users\Yassir\Documents\C#_Dev\ToDoListApp\obj\Debug\net10.0\ToDoListApp.pdb
+C:\Users\Yassir\Documents\C#_Dev\ToDoListApp\obj\Debug\net10.0\ToDoListApp.genruntimeconfig.cache
+C:\Users\Yassir\Documents\C#_Dev\ToDoListApp\obj\Debug\net10.0\ref\ToDoListApp.dll
