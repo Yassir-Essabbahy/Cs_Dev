@@ -1,11 +1,10 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
-public class RigidbodyMovement3D : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 6f;
-    public float rotationSpeed = 10f;
-
+    public GameObject SMS_Canvas;
     private Rigidbody rb;
     private Vector3 moveInput;
 
@@ -16,6 +15,11 @@ public class RigidbodyMovement3D : MonoBehaviour
 
     void Update()
     {
+       if (SMS_Canvas != null && SMS_Canvas.activeSelf)
+        {
+            moveInput = Vector3.zero;
+            return;
+        }
         float h = Input.GetAxisRaw("Horizontal");
         float v = Input.GetAxisRaw("Vertical");
 
@@ -24,14 +28,15 @@ public class RigidbodyMovement3D : MonoBehaviour
 
     void FixedUpdate()
     {
-        Vector3 move = moveInput * moveSpeed;
+          if (SMS_Canvas != null && SMS_Canvas.activeSelf)
+        {
+            rb.linearVelocity = new Vector3(0f, rb.linearVelocity.y, 0f);
+            return;
+        }
+        Vector3 move = transform.TransformDirection(moveInput) * moveSpeed;
 
         rb.linearVelocity = new Vector3(move.x, rb.linearVelocity.y, move.z);
 
-        if (moveInput != Vector3.zero)
-        {
-            Quaternion targetRotation = Quaternion.LookRotation(moveInput);
-            rb.MoveRotation(Quaternion.Slerp(rb.rotation, targetRotation, rotationSpeed * Time.fixedDeltaTime));
-        }
+        
     }
 }

@@ -66,6 +66,8 @@ public class PlayerHealth : MonoBehaviour
     {
         Debug.Log("Player Died");
         gameOverPanel.SetActive(true);
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
         Time.timeScale = 0f;
     }
 }
