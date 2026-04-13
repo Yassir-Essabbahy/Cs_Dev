@@ -2,8 +2,10 @@ using UnityEngine;
 
 public class CameraSwitcher : MonoBehaviour
 {
+    public CamerasManager manager;
     public GameObject[] cameras;
     public int currentCameraIndex = 0;
+
 
 
     void Update()
@@ -14,6 +16,7 @@ public class CameraSwitcher : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Alpha1 + i))
             {
                 SetCameraActive(i);
+                manager.UpdateCameraUI("CAM 0"+ (i+1));
             }
         }
     }

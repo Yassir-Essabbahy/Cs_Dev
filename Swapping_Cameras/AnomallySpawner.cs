@@ -5,18 +5,24 @@ public class AnomallySpawner : MonoBehaviour
 {
 
     public GameObject[] childAnomalies;
+    public AudioClip audioClip;
+    public AudioSource audioSource;
 
-    void Start()
+void Start()
+{
+    Debug.Log($"Found {transform.childCount} children");
+    
+    childAnomalies = new GameObject[transform.childCount];
+
+    for (int i = 0; i < transform.childCount; i++)
     {
-        childAnomalies = new GameObject[transform.childCount];
-
-        for (int i = 0; i < transform.childCount; i++)
-        {
-            childAnomalies[i] = transform.GetChild(i).gameObject;
-        }
-
-        StartCoroutine(AnomalyTimer());
+        childAnomalies[i] = transform.GetChild(i).gameObject;
+        Debug.Log($"Assigned: {childAnomalies[i].name}");
     }
+
+    StartCoroutine(AnomalyTimer());
+}
+
 
 
     IEnumerator AnomalyTimer()
@@ -36,6 +42,8 @@ public class AnomallySpawner : MonoBehaviour
 
 
         childAnomalies[i].SetActive(true);
+        audioSource.PlayOneShot(audioClip);
+        Debug.Log("Anomaly Spawned");
 
                 
     }
