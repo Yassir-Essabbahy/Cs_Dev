@@ -1,16 +1,22 @@
 using UnityEngine;
+using TMPro;
 
 public class CamerasManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public TextMeshProUGUI camNameDisplay;
+    public TextMeshProUGUI strikeDisplay;
+
+    int strikes = 0;
+
+    public void UpdateCameraUI(string name)
     {
-        
+        camNameDisplay.text = name;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void AddStrike()
     {
-        
+        strikes++;
+        strikeDisplay.text = "STRIKES: " + strikes + "/3";
     }
+
 }
