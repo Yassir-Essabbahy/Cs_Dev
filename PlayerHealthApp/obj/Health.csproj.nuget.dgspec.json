@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yassir\\Documents\\C#_Dev\\Health\\Health.csproj": {}
+    "C:\\Users\\Yassir\\Documents\\C#_Dev\\PlayerHealthApp\\Health.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yassir\\Documents\\C#_Dev\\Health\\Health.csproj": {
+    "C:\\Users\\Yassir\\Documents\\C#_Dev\\PlayerHealthApp\\Health.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yassir\\Documents\\C#_Dev\\Health\\Health.csproj",
+        "projectUniqueName": "C:\\Users\\Yassir\\Documents\\C#_Dev\\PlayerHealthApp\\Health.csproj",
         "projectName": "Health",
-        "projectPath": "C:\\Users\\Yassir\\Documents\\C#_Dev\\Health\\Health.csproj",
+        "projectPath": "C:\\Users\\Yassir\\Documents\\C#_Dev\\PlayerHealthApp\\Health.csproj",
         "packagesPath": "C:\\Users\\Yassir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yassir\\Documents\\C#_Dev\\Health\\obj\\",
+        "outputPath": "C:\\Users\\Yassir\\Documents\\C#_Dev\\PlayerHealthApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Yassir\\AppData\\Roaming\\NuGet\\NuGet.Config"
